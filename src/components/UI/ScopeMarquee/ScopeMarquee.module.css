@@ -1,0 +1,13 @@
+.container {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 72px 0;
+
+  font-size: 72px;
+  font-weight: 400 !important;
+}
+
+.container p {
+  margin: 0 60px;
+  cursor: default;
+}

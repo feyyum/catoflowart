@@ -1,0 +1,14 @@
+.container {
+  background-color: var(--deep-blue);
+  color: var(--white);
+  padding: 16px 0;
+
+  font-size: 24px;
+  font-weight: 200 !important;
+  letter-spacing: 0px;
+}
+
+.container p {
+  padding: 0 120px;
+  cursor: default;
+}

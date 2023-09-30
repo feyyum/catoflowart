@@ -1,0 +1,35 @@
+.container {
+  width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_group {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav_element {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--black);
+  transition: 0.2s ease-in-out;
+}
+
+.nav_element:hover {
+  color: var(--pink);
+  transition: 0.25s ease-in-out;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 900;
+  color: var(--black);
+  cursor: default;
+}

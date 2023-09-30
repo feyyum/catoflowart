@@ -1,10 +1,12 @@
+import React from "react";
 import "./App.css";
+import Landing from "./pages/Landing/Landing";
 
 function App() {
   return (
-    <>
-      <p>Selamlar</p>
-    </>
+    <React.Fragment>
+      <Landing />
+    </React.Fragment>
   );
 }
 
