@@ -1,7 +1,14 @@
 import styles from "./Landing.module.css";
 
 // Section Components
-import { About, Contact, Footer, Header, Hero } from "../../components";
+import {
+  Header,
+  Hero,
+  About,
+  Projects,
+  Contact,
+  Footer,
+} from "../../components";
 
 // UI Components
 import { ScopeMarquee, NameMarquee } from "../../components";
@@ -14,6 +21,7 @@ function Landing() {
       <ScopeMarquee />
       <About />
       <NameMarquee />
+      <Projects />
       <Contact />
       <Footer />
     </div>

@@ -11,9 +11,14 @@ function About() {
               <span className={styles.pink}>CaToFlow</span>, İstanbul Teknik
               Üniversitesi Fen-Edebiyat Fakültesi’nde kurulmuş ikinci proje
               takımı ve Teknofest yarışmasında finalist olan ilk takımıdır.
-              Takımımızın adı, “Cancer Through Flow” yani “Akıştaki Kanser”den
-              almaktadır. Bu ad, takımın kurulmasına vesile olmuş ilk projemiz
-              meme kanseri tanı ve takip kitinden gelmektedir.
+              Takımımızın adı, “
+              <span className={styles.pink}>Cancer Through Flow</span>” yani
+              “Akıştaki Kanser”den almaktadır. Bu ad, takımın kurulmasına vesile
+              olmuş ilk projemiz{" "}
+              <span className={styles.pink}>
+                meme kanseri tanı ve takip kiti
+              </span>
+              nden gelmektedir.
             </p>
             <p>
               Takımımızın vizyonu, bilimin yol göstericiliğinde, yaşam bilimleri
@@ -23,16 +28,11 @@ function About() {
               projeler çıkarmak ve katıldığımız yarışmalarda başarılı sonuçlar
               elde etmektir. Meme kanseri tanı ve takip kiti projesine ek olarak
               başka projelerimiz de bulunmaktadır. Bu projeler ise nadir
-              hastalıklara odaklanmış olan CaToFlow-Rare ve yapay zeka ile
-              sağlık alanını birleştiren CaToFlow- BrAIn alt takımlarının
-              bünyesinde toplanmıştır.
-            </p>
-            <p>
-              Takımımızın danışmanı İTÜ Fen Edebiyat Fakültesi Biyoloji
-              Bölümü’nden Dr. Öğr. Üyesi Abdulhalim Kılıç’tır. Ek olarak Rare ve
-              BrAIn alt takımlarının danışmanlığı ise İTÜ İşletme Fakültesi
-              İşletme Mühendisliği Bölümünden Prof. Dr. Hatice Camgöz Akdağ
-              yapmaktadır.
+              hastalıklara odaklanmış olan{" "}
+              <span className={styles.pink}>CaToFlow-Rare</span> ve yapay zeka
+              ile sağlık alanını birleştiren{" "}
+              <span className={styles.pink}>CaToFlow-BrAIn</span> alt
+              takımlarının bünyesinde toplanmıştır.
             </p>
           </div>
         </div>
